@@ -3,14 +3,15 @@ import { getAuth, GoogleAuthProvider, FacebookAuthProvider, PhoneAuthProvider, R
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  // Yahan apna Firebase config daal dena (Firebase Console se copy kar)
-  apiKey: "your-api-key",
-  authDomain: "your-project-id.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project-id.appspot.com",
-  messagingSenderId: "your-sender-id",
-  appId: "your-app-id"
+  apiKey: "AIzaSyDr7d-eliT9ntsWnSw-CXsRJ1B8PyH9l9w",
+  authDomain: "studysync-f3aa3.firebaseapp.com",
+  projectId: "studysync-f3aa3",
+  storageBucket: "studysync-f3aa3.firebasestorage.app",
+  messagingSenderId: "634403512040",
+  appId: "1:634403512040:web:fafad981469b07389db35d",
+  measurementId: "G-6QXPEP15XX"
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
