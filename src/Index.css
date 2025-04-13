@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.focus {
+  background: linear-gradient(to right, #ff6b6b, #ff8e53);
+}
+.chill {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+.night {
+  background: linear-gradient(to right, #2cbeenhere.com/2c3e50/3498/2c3e50.js
